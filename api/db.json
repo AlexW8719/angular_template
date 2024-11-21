@@ -1,0 +1,72 @@
+{
+  "profiles": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "photo": "https://example.com/photo.jpg",
+      "description": "Web developer with 5 years of experience in frontend development."
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "janesmith@example.com",
+      "photo": "https://example.com/photo2.jpg",
+      "description": "Designer passionate about creating beautiful and functional user interfaces."
+    }
+  ],
+  "ads": [
+    {
+      "id": 1,
+      "title": "Apartment for Rent",
+      "description": "Beautiful 2-bedroom apartment in the city center. Available from January.",
+      "price": "500",
+      "category": "Real Estate",
+      "createdBy": 1,
+      "createdAt": "2024-11-20T12:00:00",
+      "updatedAt": "2024-11-20T12:00:00"
+    },
+    {
+      "id": 2,
+      "title": "Used Car Sale",
+      "description": "2015 Toyota Corolla in good condition. 100,000 miles. Price negotiable.",
+      "price": "8000",
+      "category": "Vehicles",
+      "createdBy": 2,
+      "createdAt": "2024-11-21T09:30:00",
+      "updatedAt": "2024-11-21T09:30:00"
+    }
+  ],
+  "admin": [
+    {
+      "id": 1,
+      "name": "Admin User",
+      "email": "admin@example.com",
+      "permissions": {
+        "viewAds": true,
+        "deleteAds": true,
+        "editAds": true,
+        "viewProfiles": true,
+        "deleteProfiles": false
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Real Estate"
+    },
+    {
+      "id": 2,
+      "name": "Vehicles"
+    },
+    {
+      "id": 3,
+      "name": "Jobs"
+    },
+    {
+      "id": 4,
+      "name": "Services"
+    }
+  ]
+}
