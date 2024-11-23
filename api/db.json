@@ -5,7 +5,8 @@
       "name": "John Doe",
       "email": "johndoe@example.com",
       "photo": "https://example.com/photo.jpg",
-      "description": "Web developer with 5 years of experience in frontend development."
+      "description": "Web developer with 5 years of experience in frontend development.",
+      "phoneNumber": "+38748484598"
     },
     {
       "id": 2,
@@ -54,19 +55,19 @@
   "categories": [
     {
       "id": 1,
-      "name": "Real Estate"
+      "type": "Real Estate"
     },
     {
       "id": 2,
-      "name": "Vehicles"
+      "type": "Vehicles"
     },
     {
       "id": 3,
-      "name": "Jobs"
+      "type": "Jobs"
     },
     {
       "id": 4,
-      "name": "Services"
+      "type": "Services"
     }
   ]
 }
