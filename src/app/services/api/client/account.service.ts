@@ -7,7 +7,7 @@ import {IProfile} from '../../../interfaces/client/profile.interface';
   providedIn: 'root'
 })
 export class AccountService {
- readonly host = environment.staging || environment.production ? environment.host : '';
+ readonly host =  environment.host;
   constructor(
     private http: HttpClient,
   ) { }
